@@ -8,6 +8,14 @@ gcc -DCONVERT   -o figproc_convert   figproc.c
 TRANSFROM is used for P6 -> P5 -> P4 and P3 -> P2 -> P1  conversions
 CONVERT   is used for P6 <-> P3, P5 <-> P2 and P4 <-> P1 conversions
 
+Where:
+* P1:  B&W Ascii
+* P2:  Grayscale Ascii
+* P3:  RGB Ascii
+* P4:  B&W Binary
+* P5:  Grayscale Binary
+* P6:  RGB Binary
+
 either -DTRANSFORM or -DCONVERT must be used
 but not both of them at the same time
 
